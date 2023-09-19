@@ -28,10 +28,6 @@ Welcome to the Solar System Explorer, an immersive 3D experience built using Rea
 
 ## Getting Started
 
-Dive into the universe by cloning this repository and running it on your local machine. Explore the code, customize the experience, and learn more about the wonders of our solar system!
-
-## Getting Started
-
 To get started, follow these simple steps:
 
 1. Clone this repository:
