@@ -14,7 +14,7 @@ const Scene = () => {
       <Sun />
       <Mercury />
       <Stars />
-      <OrbitControls minDistance={2} maxDistance={5} />
+      <OrbitControls minDistance={10} maxDistance={200} />
     </Canvas>
   );
 };

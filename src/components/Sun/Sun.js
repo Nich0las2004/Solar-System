@@ -8,7 +8,7 @@ const Sun = () => {
   return (
     <mesh>
       <meshBasicMaterial map={texture} />
-      <sphereGeometry />
+      <sphereGeometry args={[5, 64, 64]} />
     </mesh>
   );
 };
