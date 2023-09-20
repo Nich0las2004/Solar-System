@@ -1,4 +1,4 @@
-const MercuryOrbit = () => {
+const Mercuryorbit = () => {
   return (
     <mesh>
       <ringGeometry />
@@ -6,4 +6,4 @@ const MercuryOrbit = () => {
   );
 };
 
-export default MercuryOrbit;
+export default Mercuryorbit;

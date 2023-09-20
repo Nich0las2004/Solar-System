@@ -10,7 +10,7 @@ import Mercury from "../Planets/Mercury/Mercury";
 import Venus from "../Planets/Venus/Venus";
 import Earth from "../Planets/Earth/Earth";
 
-import MercuryOrbit from "../Orbits/MercuryOrbit/MercuryOrbit";
+import MercuryOrbit from "../Orbits/MercuryOrbit/Mercuryorbit";
 
 const Scene = () => {
   return (
