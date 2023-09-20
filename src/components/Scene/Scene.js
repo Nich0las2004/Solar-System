@@ -10,13 +10,13 @@ import Mercury from "../Planets/Mercury/Mercury";
 import Venus from "../Planets/Venus/Venus";
 import Earth from "../Planets/Earth/Earth";
 
-import MercuryOrbit from "../Orbits/MercuryOrbit/Mercuryorbit";
+import Mercuryorbit from "../Orbits/MercuryOrbit/MercuryOrbit";
 
 const Scene = () => {
   return (
     <Canvas className={classes.canvas}>
       {/* <Sun /> */}
-      <MercuryOrbit />
+      <Mercuryorbit />
       <Mercury />
       <Venus />
       <Earth />
