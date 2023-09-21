@@ -1,20 +1,20 @@
 import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 
-const Mercuryorbit = () => {
+const MercuryOrbit = () => {
   const orbitRef = useRef();
 
   useFrame(() => {
     if (orbitRef.current) {
-      orbitRef.current.rotation.x = Math.PI / -2;
+      orbitRef.current.rotation.x = Math.PI / 2;
     }
   });
 
   return (
     <mesh ref={orbitRef}>
-      <ringGeometry args={[1, 1.2, 64]} />
+      <ringGeometry args={[10.5, 10, 64]} />
     </mesh>
   );
 };
 
-export default Mercuryorbit;
+export default MercuryOrbit;
