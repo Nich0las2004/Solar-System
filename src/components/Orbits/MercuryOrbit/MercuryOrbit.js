@@ -12,7 +12,7 @@ const MercuryOrbit = () => {
 
   return (
     <mesh ref={orbitRef}>
-      <ringGeometry args={[10.5, 10, 64]} />
+      <ringGeometry args={[20, 19.9, 64]} />
     </mesh>
   );
 };

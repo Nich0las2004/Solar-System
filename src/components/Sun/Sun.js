@@ -11,7 +11,7 @@ const Sun = () => {
   return (
     <mesh ref={sunRef}>
       <meshBasicMaterial map={texture} />
-      <sphereGeometry args={[5, 64, 64]} />
+      <sphereGeometry args={[10, 64, 64]} />
     </mesh>
   );
 };

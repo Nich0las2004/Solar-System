@@ -15,8 +15,7 @@ const Mercury = () => {
     if (mercuryRef.current) {
       const elapsedTime = clock.getElapsedTime();
 
-      // Calculate the new position along the circular path
-      const radius = 10; // Radius of the circular path
+      const radius = 20;
       const x = radius * Math.cos(elapsedTime);
       const z = radius * Math.sin(elapsedTime);
 
@@ -27,7 +26,7 @@ const Mercury = () => {
   });
 
   return (
-    <mesh position={[-10, 0, 0]} ref={mercuryRef}>
+    <mesh position={[-20, 0, 0]} ref={mercuryRef}>
       <meshBasicMaterial map={texture} />
       <sphereGeometry args={[1, 64, 64]} />
     </mesh>
