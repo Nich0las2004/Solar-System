@@ -12,19 +12,22 @@ import Earth from "../Planets/Earth/Earth";
 
 import MercuryOrbit from "../Orbits/MercuryOrbit/MercuryOrbit";
 import VenusOrbit from "../Orbits/VenusOrbit/VenusOrbit";
+import EarthOrbit from "../Orbits/EarthOrbit/EarthOrbit";
 
 const Scene = () => {
   return (
     <Canvas className={classes.canvas}>
       <Sun />
-      
+
       <MercuryOrbit />
       <Mercury />
 
       <VenusOrbit />
       <Venus />
 
+      <EarthOrbit />
       {/* <Earth /> */}
+      
       <Stars />
       <OrbitControls minDistance={20} maxDistance={200} />
     </Canvas>
