@@ -13,6 +13,7 @@ import Earth from "../Planets/Earth/Earth";
 import MercuryOrbit from "../Orbits/MercuryOrbit/MercuryOrbit";
 import VenusOrbit from "../Orbits/VenusOrbit/VenusOrbit";
 import EarthOrbit from "../Orbits/EarthOrbit/EarthOrbit";
+import MarsOrbit from "../Orbits/MarsOrbit/MarsOrbit";
 
 const Scene = () => {
   return (
@@ -27,6 +28,8 @@ const Scene = () => {
 
       <EarthOrbit />
       <Earth />
+
+      <MarsOrbit />
 
       <Stars />
       <OrbitControls minDistance={20} maxDistance={200} />
