@@ -17,10 +17,13 @@ const Scene = () => {
   return (
     <Canvas className={classes.canvas}>
       <Sun />
+      
       <MercuryOrbit />
       <Mercury />
+
       <VenusOrbit />
-      {/* <Venus /> */}
+      <Venus />
+
       {/* <Earth /> */}
       <Stars />
       <OrbitControls minDistance={20} maxDistance={200} />
