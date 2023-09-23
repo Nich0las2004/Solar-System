@@ -11,6 +11,7 @@ import Venus from "../Planets/Venus/Venus";
 import Earth from "../Planets/Earth/Earth";
 
 import MercuryOrbit from "../Orbits/MercuryOrbit/MercuryOrbit";
+import VenusOrbit from "../Orbits/VenusOrbit/VenusOrbit";
 
 const Scene = () => {
   return (
@@ -18,6 +19,7 @@ const Scene = () => {
       <Sun />
       <MercuryOrbit />
       <Mercury />
+      <VenusOrbit />
       {/* <Venus /> */}
       {/* <Earth /> */}
       <Stars />
