@@ -26,8 +26,8 @@ const Scene = () => {
       <Venus />
 
       <EarthOrbit />
-      {/* <Earth /> */}
-      
+      <Earth />
+
       <Stars />
       <OrbitControls minDistance={20} maxDistance={200} />
     </Canvas>
