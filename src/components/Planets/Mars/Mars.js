@@ -11,6 +11,19 @@ const Mars = () => {
 
   const texture = new TextureLoader().load(marsTexture);
 
+  useFrame(() => {
+    if (marsRef.current) {
+      const elapsedTime = clock.getElapsedTime();
+
+      const radius = 50;
+
+      const x = radius * Math.cos(elapsedTime);
+      const z = radius * Math.sin(elapsedTime);
+
+      marsRef.current.position.set(x, 0, z);
+    }
+  });
+
   return (
     <mesh position={[-50, 0, 0]} ref={marsRef}>
       <meshBasicMaterial map={texture} />
