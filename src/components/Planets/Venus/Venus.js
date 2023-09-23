@@ -28,7 +28,7 @@ const Venus = () => {
   return (
     <mesh position={[-30, 0, 0]} ref={venusRef}>
       <meshBasicMaterial map={texture} />
-      <sphereGeometry args={[1, 64, 64]} />
+      <sphereGeometry args={[0.9, 64, 64]} />
     </mesh>
   );
 };
