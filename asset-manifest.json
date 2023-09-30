@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Solar-System/static/css/main.91de850e.css",
+    "main.js": "/Solar-System/static/js/main.473fbb58.js",
+    "static/media/earth-texture.jpg": "/Solar-System/static/media/earth-texture.ebccef4a1fedd8483fc4.jpg",
+    "static/media/mercury-texture.jpg": "/Solar-System/static/media/mercury-texture.10c085a5c1bd7e7b54dd.jpg",
+    "static/media/saturn-texture.jpg": "/Solar-System/static/media/saturn-texture.afe61e83ea388f0d901a.jpg",
+    "static/media/venus-texture.jpg": "/Solar-System/static/media/venus-texture.4b03f2d64e23f1c2b6a0.jpg",
+    "static/media/jupiter-texture.jpg": "/Solar-System/static/media/jupiter-texture.d5edd7e2579fc2acdcb3.jpg",
+    "static/media/mars-texture.jpg": "/Solar-System/static/media/mars-texture.1990eba70cb26a93d2f5.jpg",
+    "static/media/sun-texture.jpg": "/Solar-System/static/media/sun-texture.4ae42484b135bde6085d.jpg",
+    "static/media/neptune-texture.jpg": "/Solar-System/static/media/neptune-texture.6dd112666aad0cd68958.jpg",
+    "static/media/uranus-texture.jpg": "/Solar-System/static/media/uranus-texture.43f8336c464676a883e5.jpg",
+    "index.html": "/Solar-System/index.html",
+    "main.91de850e.css.map": "/Solar-System/static/css/main.91de850e.css.map",
+    "main.473fbb58.js.map": "/Solar-System/static/js/main.473fbb58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91de850e.css",
+    "static/js/main.473fbb58.js"
+  ]
+}
