@@ -6,6 +6,8 @@ Explore the wonders of our solar system in 3D with React Three Fiber! 🚀
 
 Welcome to the Solar System Explorer, an immersive 3D experience built using React Three Fiber (r3f). Dive into the cosmos and embark on a journey through our very own solar system. This interactive web application brings celestial bodies to life, complete with realistic planetary orbits, accurate scaling, and stunning visual effects.
 
+Live: https://nich0las2004.github.io/Solar-System/
+
 ## Features
 
 - **Planetary Realism:** Each planet and celestial object is accurately scaled and textured, providing an educational and visually stunning experience.
